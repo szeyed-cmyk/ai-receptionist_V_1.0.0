@@ -47,6 +47,6 @@
 </div>
 <script>const mb=document.getElementById('menu-toggle'), sb=document.getElementById('sidebar'), bd=document.getElementById('sidebar-backdrop'); function closeNav(){sb.classList.add('-translate-x-full');bd.classList.add('hidden');mb.setAttribute('aria-expanded','false')} mb.addEventListener('click',()=>{sb.classList.toggle('-translate-x-full');bd.classList.toggle('hidden');mb.setAttribute('aria-expanded',mb.getAttribute('aria-expanded')==='true'?'false':'true')});bd.addEventListener('click',closeNav);</script>
 {% block scripts %}{% endblock %}
-  <script src="https://vibe96.com/js/v96-demo.js" defer></script>
+<script src="https://vibe96.com/js/v96-demo.js" defer></script>
 </body>
 </html>
